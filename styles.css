@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    min-height: 100vh;
+    min-height: 100svh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -100,6 +100,62 @@ button {
 .images {
     display: flex;
     justify-content: center;
+}
+
+.container-03 {
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    weight: 300;
+    color:#1f2937;
+    max-width: 500px;
+    margin-bottom: 0;
+}
+
+#Ianspace {
+    max-width: 500px;
+}
+
+#Ian {
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.container-04 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+.small-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-height: 130px;
+    min-width: 800px;
+    background:#3882f6;
+    border-radius: 10px;
+    color:#f9faf9
+}
+
+#action {
+    weight: 900;
+    font-size: 24px;
+    
+}
+
+.small-cont button {
+    border-color: white;
+    color:#f9faf9
 }
 
 .footer {
